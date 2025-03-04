@@ -28,7 +28,7 @@
 2. Используется библиотека Requests
 3. Параметризированные тесты с использованием декоратора
 
-![image](https://raw.githubusercontent.com/German-D/Python-Pytest-Requests/main/static/pytest-api.png)
+![image](https://raw.githubusercontent.com/AlexEr-QA/python_autotests/refs/heads/main/1.png)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
@@ -36,24 +36,24 @@
 3. Выполнить команду:
 
 Создаём виртуальное окружение внутри папки проекта.
-Далее команды для MacOS (для windows инуструкция [есть вот тут](https://realpython.com/python-virtual-environments-a-primer/#create-it))
 
 ``` markdown
-python3 -m venv venv
+PS> py -m venv venv\
 ```
 
 ``` markdown
-source venv/bin/activate
+PS> venv\Scripts\activate
+(venv) PS>
 ```
 
 4. Устанавливаем библиотеки
 
 ``` markdown
-python3 -m pip install requests
+(venv) PS> python -m pip install requests
 ```
 
 ``` markdown
-python3 -m pip install pytest
+(venv) PS> python -m pip install pytest
 ```
 
 Запускаем
@@ -66,4 +66,4 @@ pytest tests/test_pokemon.py
 
 ## Автор
 
-Герман Дольников ([@dolnikov](https://t.me/dolnikov))
+Ероскин Алексей ([@surra_gott](https://t.me/surra_gott))
