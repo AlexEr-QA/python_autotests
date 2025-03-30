@@ -66,4 +66,4 @@ pytest tests/test_pokemon.py
 
 ## Автор
 
-Ероскин Алексей ([@surra_gott](https://t.me/surra_gott))
+Ероскин Алексей ([@AlexEr_QA](https://t.me/AlexEr_QA))
